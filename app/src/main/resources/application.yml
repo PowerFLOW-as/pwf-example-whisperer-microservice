@@ -1,0 +1,13 @@
+rest.client:
+  request-timeout-ms: 30_000
+  pwf_ods_whisperers.url: ""
+
+pwf:
+  endpoints:
+    token-verification: "/service/api/client/rest/token/verify"
+
+app.version: @project.version@
+
+security:
+  cors:
+    allowed-origins: "*"

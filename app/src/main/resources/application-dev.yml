@@ -1,0 +1,11 @@
+rest.client:
+  request-timeout-ms: 10_000
+  pwf_ods_whisperers:
+    url: ""
+
+logging:
+  level:
+    cz.pwf.whisperer.service: DEBUG
+
+pwf:
+  base-url: ""
